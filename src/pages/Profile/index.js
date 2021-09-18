@@ -14,6 +14,7 @@ export default function Profile() {
     const dispatch = useDispatch();
 
     function handleSubmit(data) {
+        console.log('bibo');
         dispatch(updateProfileRequest(data));
     }
 
